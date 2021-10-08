@@ -7,7 +7,7 @@ from vk_api import VkUpload
 from vk_api.longpoll import VkLongPoll, VkEventType
 import random
 import os
-tt = TikTokApi.TikTokApi.get_instance(custom_verifyFp=str(os.environ.get("TT-TOKEN")))
+tt = TikTokApi.TikTokApi.get_instance(custom_verifyFp="verify_ks527y2z_bCTsNr62_ahnn_4dZ1_B36J_vlI3DVPn5N7l")
 
 token = str(os.environ.get("VK-TOKEN"))
 
