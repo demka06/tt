@@ -9,7 +9,7 @@ import random
 import os
 tt = TikTokApi.TikTokApi.get_instance(custom_verifyFp=str(os.environ.get("VK-TOKEN")))
 
-token = str(os.environ.get("VK-TOKEN"))
+token = str(os.environ.get("TT-TOKEN"))
 
 vk_session = vk_api.VkApi(token=token)
 
